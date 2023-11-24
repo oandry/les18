@@ -1,101 +1,51 @@
 <!DOCTYPE html>
 <html lang="nl">
-
 <head>
     <meta charset="UTF-8">
-    <title>Mijn Woonplaats - Nijmegen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <style>
-        /* Aanvullende stijlen die niet in het externe CSS-bestand staan */
-        header {
-            text-align: center;
-            font-family: 'Roboto', sans-serif;
-            background-image: url('nijmegen.jpg');
-            background-size: cover;
-            color: white;
-            padding: 100px 0;
-        }
-
-        #left-column {
-            width: 50%;
-            float: left;
-            padding: 20px;
-        }
-
-        #right-column {
-            width: 50%;
-            float: right;
-            background-color: #f2f2f2;
-            padding: 20px;
-        }
-
-        .article {
-            margin-bottom: 20px;
-        }
-
-        .article img {
-            float: right;
-            margin-left: 20px;
-            max-width: 100px;
-            max-height: 100px;
-        }
-
-        /* Mediaquery voor kleinere schermen (bijv. mobiele telefoons) */
-        @media (max-width: 768px) {
-            #left-column,
-            #right-column {
-                width: 100%;
-                float: none;
-                padding: 10px;
-            }
-
-            header {
-                padding: 60px 0;
-            }
-        }
-    </style>
+    <title>Nijmegen</title>
 </head>
-
 <body>
     <header>
         <h1>Nijmegen</h1>
     </header>
 
     <main>
-        <div id="left-column">
-            <h2>Vijf feitjes over Nijmegen</h2>
-            <ul>
-                <li>Nijmegen is de oudste stad van Nederland.</li>
-                <li>De stad staat bekend om de Vierdaagse, een wandelevenement.</li>
-                <li>Nijmegen heeft een rijke geschiedenis, met veel historische gebouwen.</li>
-                <li>Het is gelegen aan de Waal, een zijrivier van de Rijn.</li>
-                <li>Er zijn verschillende parken en natuurgebieden in en rondom de stad.</li>
-            </ul>
-        </div>
+        <section class="left-section">
+            <div class="column">
+                <h2>Feitjes over Nijmegen</h2>
+                <ul>
+                    <li>De oudste stad van Nederland</li>
+                    <li>Bekend om de Vierdaagse</li>
+                    <li>Prachtige Waalbrug</li>
+                    <li>Romeinse geschiedenis</li>
+                    <li>Gezellige binnenstad</li>
+                </ul>
+            </div>
+        </section>
 
-        <div id="right-column">
+        <section class="right-section">
             <div class="article">
-                <h2>Waalkade</h2>
-                <img src="https://assets.citynavigator.nl/thumb/HwSCbwOn8YrV1Fp5XjpkChjTFPlag42IFRFXMHZ3g5c/resizing_type:fit/width:1280/height:0/gravity:sm/enlarge:0/aHR0cHM6Ly9hc3NldHMuY2l0eW5hdmlnYXRvci5ubC9rdW1hLW5pam1lZ2VuLXN0YWRzcGFydG5lcnMvdXBsb2Fkcy9tZWRpYS81ZjU3NzQ3MWE3NGQ4L2hlYWRlci13YWFsa2FkZS1sYW5kaW5nc3BhZ2luYS5qcGc.webp" alt="Waalkade" width="300" height="200">
+                <h2>Toeristische attractie 1: Waalkade</h2>
                 <p>Aan de overkant van de Waalkade ligt het rivierpark van Nijmegen. Er stroomt steeds meer water door de rivieren. Daarom is er langs de Waal een nevengeul gegraven (de Spiegelwaal genaamd). Door het graven en verplaatsen van de dijken ontstond een langgerekt eiland in de Waal.</p>
 
-                <p>Het eiland en de Spiegelwaal beschermen ons tegen hoog water, ook wel 'Veur Lent' genoemd. Zin in een frisse neus? Dan is dit een geweldige plek voor een wandeling of fietstocht! Als de zon volop schijnt, komen de Nijmegenaren hier hun handdoek neerleggen en een verfrissende duik nemen. Ook voor watersporten als stand up paddling, kanoën, roeien, enzovoort kunt u hier terecht..</p>
+                <p>Het eiland en de Spiegelwaal beschermen ons tegen hoog water, ook wel 'Veur Lent' genoemd. Zin in een frisse neus? Dan is dit een geweldige plek voor een wandeling of fietstocht! Als de zon volop schijnt, komen de Nijmegenaren hier hun handdoek neerleggen en een verfrissende duik nemen. Ook voor watersporten als stand up paddling, kanoën, roeien, enzovoort kunt u hier terecht.</p>
+                <img src="https://images.pexels.com/photos/13618401/pexels-photo-13618401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Attractie 1" width="600" height="400">
             </div>
 
             <div class="article">
-                <h2>Rivierpark</h2>
-                <img src="https://assets.citynavigator.nl/thumb/8eYwcPZdu124DS_lyRQAvXcMmkTdXC4dfz4uD0z6fPE/resizing_type:fit/width:1280/height:0/gravity:sm/enlarge:0/aHR0cHM6Ly9hc3NldHMuY2l0eW5hdmlnYXRvci5ubC9rdW1hLW5pam1lZ2VuLXN0YWRzcGFydG5lcnMvdXBsb2Fkcy9tZWRpYS81ZWViNDkwNDE0OTQ3L3N0aWxsLW9sZC1jaXR5LXlvdW5nLXZpYmUyLnBuZw.webp" alt="Rivierpark" width="300" height="200">
+                <h2>Toeristische attractie 2: Rivierpark</h2>
                 <p>Maak een wandeling langs één van de mooiste plekjes van Nijmegen: de Waalkade. Neem plaats op een van de terrassen, bezoek een museum, waag een gokje bij Holland Casino of ontspan op de greens. Op de Waalkade is alles mogelijk!</p>
 
                 <p>Een prachtig gebouw dat je niet mag missen aan de Waalkade is het Besiendershuis, afkomstig uit de 16e eeuw. Het is vernoemd naar 'de beziender', die de tol van passerende schepen int. Tegenwoordig heeft het Besiendershuis een culturele bestemming en wil het een sterk en open Nijmeegs creatief netwerk stimuleren en zichtbaar maken.</p>
+                <img src="https://images.pexels.com/photos/18616141/pexels-photo-18616141/free-photo-of-nijmegen.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Attractie 2" width="600" height="400">
             </div>
-        </div>
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2023 Mijn Woonplaats - Nijmegen</p>
+        <p>&copy; 2023 Andry</p>
     </footer>
 </body>
-
 </html>
